@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    background-image: linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.conatiner {
+    width: 80%;
+    height: fit-content;
+    background-color: white;
+    border-radius: 10px;
+    transform: translatez(-50px);
+}
+
+.conatiner > .img > img {
+    transform: translatey(-90px);
+    position: relative;
+    z-index: 1;
+    width: 250px;
+}
+
+
+body > .attribution {
+    margin-top: 60px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-size:;
+    perspective: 400px;
+}
+
+.lq > p {
+    display: inline-block;
+}
+
+div.c {
+    transform: translatey(-60px);
+}
+
+.arrow {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    transform: translatey(4px);
+    transition-duration: 400ms;
+}
+
+.attribution1 {
+    background-image:;
+}
+div.shadow {
+    width: 190px;
+    height: 190px;
+    background-color: hsl(240, 5%, 91%);
+    opacity: 1;
+    transform: translatex(38%) translatey(-194px)  rotatey(-230deg)rotatex(-80deg);
+    border-radius: 30px;
+    position: absolute;
+    z-index: 0;
+}
+
+
+.a1 {
+    display: none;
+    font-weight: 200;
+}
+
+.block {
+    display: block!important;
+    width: 70%;
+    transform: translatex(20%);
+}
+
+.r {
+    transform: rotate(-180deg);
+    transition-duration: 400ms;
+}
+
+hr {
+    width: 80%;
+    border: transparent;
+    height: 1px;
+    opacity: .5;
+    background-color: black;
+}
+
+@media (min-width:400px) {
+    html {
+        width: 1440px;
+    }
+    .conatiner {
+        display: grid;
+        grid-template-columns: 50% 50%;
+
+        transform: translatez(-100px);
+
+    }
+    body > .attribution {
+        margin: 0;
+        perspective: 400px;
+        justify-content: center;
+        align-items: center;
+    }
+    .conatiner > .img > img {
+        transform: translatey(40px);
+    }
+    div.c {
+        transform: translatey(0px);
+    }
+    div.shadow {
+        transform: translatex(40%) translatey(-65px)  rotatey(-230deg)rotatex(-80deg);
+    }
+    body {
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.lq > p :hover{
+    color: hsl(14, 88%, 65%);
+}
