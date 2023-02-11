@@ -96,7 +96,7 @@ hr {
     .conatiner {
         display: grid;
         grid-template-columns: 50% 50%;
-
+        width:50%;
         transform: translatez(-100px);
 
     }
